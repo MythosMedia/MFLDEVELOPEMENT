@@ -17811,9 +17811,16 @@ a {
   line-height: 58px;
 }
 
-.breadcrumb-area-bg {
-  background-image: url(https://placehold.co/1920x480);
+.breadcrumb-area-bg-about {
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1728926495/IMG_9279_jasgzs.webp);
 }
+.breadcrumb-area-bg-design{
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1728927336/IMG_9233_jyg2oe.jpg);
+}
+.breadcrumb-area-bg-newbuild{
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1728920706/IMG_2439_b6zag9.jpg);
+}
+
 .breadcrumb-area-bg .bread-crumb-area-inner {
   text-align: center;
   padding: 150px 0;
