@@ -14144,6 +14144,10 @@ xclip
   opacity: 1;
 }
 
+.container-index{
+  width: 100%;
+  height: 778px;
+}
 /* Header */
 .container {
   max-width: 1350px;
@@ -18132,13 +18136,13 @@ a {
   }
 }
 .single-service-area-one.two::after {
-  background-image: url(https://placehold.co/379x276);
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_379,h_276,c_fill,f_auto,q_auto/v1728920699/IMG_9321_x7hcug.webp);
 }
 .single-service-area-one.three::after {
-  background-image: url(https://placehold.co/379x276);
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_379,h_276,c_fill,f_auto,q_auto/v1728920706/IMG_2439_b6zag9.webp  );
 }
 .single-service-area-one.four::after {
-  background-image: url(https://placehold.co/379x276);
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_379,h_276,c_fill,f_auto,q_auto/v1728920700/IMG_9267_s0gg12.webp);
 }
 .single-service-area-one::after {
   position: absolute;
@@ -18147,7 +18151,7 @@ a {
   top: 50%;
   transform: translate(-50%, -50%) scale(0);
   width: 100%;
-  background-image: url(https://placehold.co/379x276);
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_379,h_276,c_fill,f_auto,q_auto/v1728920699/IMG_9256_jmy3ko.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -23084,12 +23088,12 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
   flex-wrap: wrap;
   gap: 30px;
 }
-.brand-area-wrapper-one img {
+/* .brand-area-wrapper-one img {
   transition: 0.3s;
 }
 .brand-area-wrapper-one img:hover {
   filter: invert(1);
-}
+} */
 @media only screen and (max-width: 575px) {
   .brand-area-wrapper-one img {
     max-width: 120px;
