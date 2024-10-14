@@ -52,10 +52,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://db.onlinewebfonts.com/c/41ef03052040400ec0acd500990fdc97?family=URW+Imperial+W01+Regular");
 :root {
-  --color-primary: #486e5a;
+  --color-primary:  #242E52;
   --color-secondary: #1F1F25;
   --color-body: #141110;
-  --color-heading-1: #32423a;
+  --color-heading-1: black;
   --color-white:#fff;
   --color-success: #3EB75E;
   --color-danger: #FF0003;
@@ -633,8 +633,17 @@ ol ul {
   }
 }
 
+.our-working-process{
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/v1728925841/natural-white-marble-texture-skin-tile-wallpaper-luxurious-background-picture-high-resolution-pattern-can-used-backdrop-luxuryxa-min_vo3b44.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* opacity: 0.8; */
+
+}
+
 .bg-gold{
-  background-color:#f0ebe6;
+  background-color:#e8e5e142;
 }
 
 .logo img {
@@ -15302,7 +15311,7 @@ a {
 }
 
 .rts-banner-area-start-one {
-  background: #f0ebe6;
+  background: #F5F2ED;
 }
 
 .swiper-banner-two-wrapper .banner-bg-2 {
@@ -16447,7 +16456,7 @@ a {
   }
 }
 .left-swiper-area-start .single-left-banner-swiper-start {
-  background: #32423a;
+  background: #242E52;
   width: 354px;
   padding: 40px 30px 40px 40px;
 }
@@ -16458,7 +16467,7 @@ a {
   }
 }
 .left-swiper-area-start .single-left-banner-swiper-start .pre {
-  color: #bd9458;
+  color: #D1B589;
   padding-left: 80px;
   position: relative;
 }
@@ -16468,7 +16477,7 @@ a {
   content: "";
   height: 1px;
   width: 60px;
-  background: #bd9458;
+  background: #D1B589;
   top: 50%;
 }
 .left-swiper-area-start .single-left-banner-swiper-start .pre::before {
@@ -16476,7 +16485,7 @@ a {
   content: "";
   height: 7px;
   width: 7px;
-  background: #bd9458;
+  background: #D1B589;
   border-radius: 50%;
   left: 0;
   top: 50%;
@@ -18130,6 +18139,8 @@ a {
   z-index: 1;
   background: #fff;
 }
+
+
 @media only screen and (max-width: 575px) {
   .single-service-area-one {
     padding: 20px;
@@ -18144,6 +18155,7 @@ a {
 .single-service-area-one.four::after {
   background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_379,h_276,c_fill,f_auto,q_auto/v1728920700/IMG_9267_s0gg12.webp);
 }
+
 .single-service-area-one::after {
   position: absolute;
   content: "";
@@ -18937,8 +18949,8 @@ a {
 }
 
 .service-style-left-area .rts-btn.btn-border {
-  border-color: #bd9458;
-  color: #bd9458;
+  border-color: #D1B589;
+  color: #D1B589;
 }
 .service-style-left-area .rts-btn.btn-border:hover {
   background: var(--color-primary);
@@ -19210,7 +19222,7 @@ a {
   font-weight: 700;
   line-height: 90px;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #bd9458;
+  -webkit-text-stroke-color:  #242E52;
   color: transparent;
   font-family: var(--font-primary);
 }
@@ -19242,7 +19254,7 @@ a {
 .single-working-prcess-one .inner {
   height: 100%;
   padding: 30px;
-  background: #32423a;
+  background:  #242E52;
   position: relative;
   z-index: 1;
 }
@@ -19443,7 +19455,7 @@ a {
   transition: 0.4s;
   z-index: 0;
   width: 100%;
-  background: linear-gradient(180deg,  #32423a00 30.87%, #32423ade 73.06%);
+  background: linear-gradient(180deg,   #242E5200 30.87%, #242E52 73.06%);
   pointer-events: none;
 }
 .single-product-one span.number {
@@ -20105,8 +20117,8 @@ a {
   background-image: none;
   height: 45px;
   width: 45px;
-  border: 1px solid #486e5a;
-  color: #486e5a;
+  border: 1px solid  #242E52;
+  color:  #242E52;
   content: "\f054";
   font-family: var(--font-3);
   display: flex;
@@ -22558,7 +22570,7 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
 }
 
 .bg-footer-image {
-  background-color: #32423a;
+  background-color:  #242E52;
 }
 
 .footer-area-wrapper-one {
