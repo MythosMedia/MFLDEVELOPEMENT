@@ -19279,7 +19279,7 @@ a {
     padding: 20px;
   }
 }
-.single-working-prcess-one .inner::after {
+/* .single-working-prcess-one .inner::after {
   position: absolute;
   content: "";
   background-image: url(https://placehold.co/308x387);
@@ -19291,7 +19291,7 @@ a {
   z-index: -1;
   background-size: cover;
   transition: 0.3s;
-}
+} */
 .single-working-prcess-one:hover::after {
   background: #141110;
 }
