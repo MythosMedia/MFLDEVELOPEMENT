@@ -17820,6 +17820,9 @@ a {
 .breadcrumb-area-bg-newbuild{
   background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1728920706/IMG_2439_b6zag9.jpg);
 }
+.breadcrumb-area-bg-project{
+  background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/v1728991903/IMG_9235_obuchd.jpg);
+}
 
 .breadcrumb-area-bg .bread-crumb-area-inner {
   text-align: center;
@@ -20265,6 +20268,9 @@ a {
 .portfolio-style-custom-4:hover .inner-content .title {
   color: #fff;
   margin-bottom: 10px;
+}
+.portfolio-style-custom-4 .inner-content .title {
+  color: white;
 }
 .portfolio-style-custom-4:hover .inner-content span {
   color: #e3e3e3;
