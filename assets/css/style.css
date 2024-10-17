@@ -19091,7 +19091,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 44px;
+  /* line-height: 44px; */
   transition: 0.3s;
   flex-basis: 70%;
 }
