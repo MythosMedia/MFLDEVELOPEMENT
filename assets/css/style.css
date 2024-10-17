@@ -20242,7 +20242,7 @@ a {
   bottom: 0;
   transition: 0.5s;
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   background: linear-gradient(180deg, rgba(18, 20, 21, 0) 30.87%, rgba(1, 1, 1, 0.8) 73.06%);
   height: 0;
   pointer-events: none;
@@ -20261,7 +20261,7 @@ a {
 .portfolio-style-custom-4 .inner-content {
   position: absolute;
   left: 30px;
-  bottom: -80px;
+  bottom: -74px;
   z-index: 2;
   transition: 0.3s;
 }
@@ -20279,7 +20279,7 @@ a {
   color: white;
 }
 .portfolio-style-custom-4:hover .inner-content span {
-  color: black;
+  color: white;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -25370,4 +25370,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   background-image: url(../svg/previous-svg.svg) !important;
   background-size:40px 40px;
 
+}
+.swiper-pagination-bullet-active{
+  background: white !important;
 }
