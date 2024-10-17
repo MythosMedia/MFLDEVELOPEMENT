@@ -22674,7 +22674,7 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
   color: #A1A1A1;
 }
 .single-footer-wized .menu-links-area ul li a:hover {
-  color: var(--color-primary);
+  color: white;
 }
 .single-footer-wized .contact-information-1 .single-contact-info {
   display: flex;
@@ -25373,4 +25373,11 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 .swiper-pagination-bullet-active{
   background: white !important;
+}
+
+.title-newletter{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
 }
