@@ -20279,7 +20279,7 @@ a {
   color: white;
 }
 .portfolio-style-custom-4:hover .inner-content span {
-  color: #e3e3e3;
+  color: black;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -25361,3 +25361,13 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   transition: all 0.3s 1s ease-out;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  background-image: url(../svg/next-svg.svg) !important;
+  background-size:40px 40px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  background-image: url(../svg/previous-svg.svg) !important;
+  background-size:40px 40px;
+
+}

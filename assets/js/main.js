@@ -199,6 +199,28 @@
             });
 
             $(document).ready(function () {
+                // Swiper for Mackenzie Heights
+                var swiperMackenzie = new Swiper(".mySwiper-project", {
+                    loop: true, // Loop through slides
+                    autoplay: {
+                        delay: 3000, // Slide transition delay
+                        disableOnInteraction: false, // Keep autoplay active after interaction
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true, // Make pagination bullets clickable
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next", // Next button
+                        prevEl: ".swiper-button-prev", // Prev button
+                    },
+                    slidesPerView: 1, // Show one slide at a time
+                    spaceBetween: 10, // 10px space between slides
+                });
+            });
+            
+
+            $(document).ready(function () {
                 var sliderThree = new Swiper(".mySwiper-product-two", {
                     loop: true,
                     effect:"fade",
