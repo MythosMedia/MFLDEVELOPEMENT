@@ -14841,6 +14841,7 @@ a {
 }
 .title-style-left .title {
   margin-top: 20px;
+  font-size: 39px;
 }
 
 .title-style-center {
@@ -16520,7 +16521,7 @@ a {
   transition: 0.3s;
 }
 .left-swiper-area-start .single-left-banner-swiper-start .rts-btn:hover {
-  background: var(--color-primary);
+  background: #D1B589;
   border: 1px solid transparent;
 }
 .left-swiper-area-start .swiper-wrapper .swiper-slide.swiper-slide-active .pre {
@@ -17813,21 +17814,32 @@ a {
 }
 
 .breadcrumb-area-bg-about {
+  opacity: 0.9;
   background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1728926495/IMG_9279_jasgzs.webp);
 }
 .breadcrumb-area-bg-design{
+  opacity: 0.9;
+
   background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1728927336/IMG_9233_jyg2oe.jpg);
 }
 .breadcrumb-area-bg-newbuild{
+  opacity: 0.9;
+
   background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1728920706/IMG_2439_b6zag9.jpg);
 }
 .breadcrumb-area-bg-project{
+  opacity: 0.9;
+  
   background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1728991903/IMG_9235_obuchd.jpg);
 }
 .breadcrumb-area-bg-reno{
+  opacity: 0.9;
+
   background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1729008366/IMG_9239_hw6kc0.jpg);
 }
 .breadcrumb-area-bg-comer{
+  opacity: 0.9;
+
   background-image: url(https://res.cloudinary.com/df2fe2yzk/image/upload/w_1920,h_480,c_fill,f_auto,q_auto/v1729008466/IMG_9315_l771qk.jpg);
 }
 
@@ -17912,7 +17924,7 @@ a {
 }
 
 .animation-55 .rts-btn:hover {
-  background: var(--color-primary) !important;
+  background: #D1B589 !important;
 }
 
 .swiper-pagination {
@@ -18186,6 +18198,7 @@ a {
   height: 100%;
   z-index: -1;
   transition: 0.4s;
+  opacity: 0.7 ;
 }
 .single-service-area-one .icon {
   margin-bottom: 30px;
