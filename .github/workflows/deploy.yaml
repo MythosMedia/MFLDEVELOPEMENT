@@ -1,5 +1,5 @@
 on: push
-name: 🚀 Deploy website on MFL
+name: 🚀 Deploy website on MFLsite
 jobs:
   web-deploy:
     name: 🎉 Deploy
